@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+#header{
+	font-size: 3em;
+	font-family: 'Anton', sans-serif;
+	position: relative;
+	display:inline-block;
+	text-align: center;
+	width:70vw;
+	height:20vh;
+	padding-top:0vh;
+	padding-bottom: 0vh;
+	margin-left:0vw;
+	margin-right:0vw;
+
+}
+
+
+#move1{
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-left:3vw;
+	margin-right:0vw;
+	position:relative;
+	display:inline-block;
+
+/*	vertical-align: middle;
+	display:inline;*/
+	/*background:left center;*/
+/*	float:left;
+*/
+}
+
+#move2{
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:0vw;
+	margin-right:0vw;
+	position:relative;
+	display:inline-block;
+
+	/*vertical-align: middle;*/
+	/*display:inline;*/
+	/*float:right;*/
+}
+
+#content{
+	font-size: 2em;
+	font-family: 'Anton', sans-serif;
+	position: relative;
+	width:70vw;
+	text-align: justify;
+	margin-top:0vh;
+	margin-left:15vw;
+	margin-right:15vw;
+	float: bottom center;
+	padding-top:5vh;
+	letter-spacing:2px;
+
+
+}
+
+
+/*div#draw{
+	width:250px;
+	height:250px;
+	padding-left: 41%;
+	padding-right: 41%;
+	margin-top:10vh;
+	text-align:center;
+	position:relative;
+
+	animation-name: spin;
+	animation-duration: 3000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+
+@keyframes spin {
+
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+
+#iam{
+		font-size: 5em;
+		font-family: 'Anton', sans-serif;
+		color:green; 
+		text-align:center;	
+		margin-top:0;
+		margin-bottom:0px;	
+		padding-top:0;
+		padding-bottom:0px;
+		position:relative;
+		
+}
+
+#tomato{
+		
+		font-size: 8em;
+		font-family: 'Anton', sans-serif;
+		color: red;
+		text-align:center;
+		margin-top:0px;
+		margin-bottom:0;
+		padding-top:0;
+		padding-bottom:0px;
+		position:relative;
+		}
+
+div#nav{
+	position:relative;
+	margin:0;
+	margin-right:0;
+	position:relative;
+	text-align:center;
+
+}
+
+div#nav:hover {
+	transform: rotate(45deg);
+}
