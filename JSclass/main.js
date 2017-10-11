@@ -38,16 +38,16 @@ var colorElement = colorNames[colorChange];
 // var day = choice(dayNames);
 // var breakfast = choice(breakfastNames);
 
-$('h3').find('.weather').text(weatherElement);
-$('h3').find('.day').text(dayElement);
-$('h3').find('.breakfast').text(breakfastElement);
-$('h3').find('.course').text(courseElement);
-$('h3').find('.event').text(eventElement);
-$('h3').find('.time').text(timeElement);
-$('h3').find('.location').text(locationElement);
+$('h3').find('.weather').text(weatherElement).css('color', colorElement);
+$('h3').find('.day').text(dayElement).css('color', colorElement);
+$('h3').find('.breakfast').text(breakfastElement).css('color', colorElement);
+$('h3').find('.course').text(courseElement).css('color', colorElement);
+$('h3').find('.event').text(eventElement).css('color', colorElement);
+$('h3').find('.time').text(timeElement).css('color', colorElement);
+$('h3').find('.location').text(locationElement).css('color', colorElement);
 
 $('h1').css('color', 'tomato');
-$('h3').css('color', colorElement);
+$('h3').css('color', 'blue');
 $('p').css('color', 'blue');
 
 //change background color each time
