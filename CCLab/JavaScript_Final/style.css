@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+	background:black;	
+}
+
+
+
+#one{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+}
+#two{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+}
+#three{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+}
+#four{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+}
+#five{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+}
+#six{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+}
+#seven{
+	text-align:center;
+	display:inline-block;
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+	color: yellow;
+}
+
+#navNum{
+	text-align:center;
+	color:white;
+}
+
+#logo{
+	text-align: center;
+}
+
+#title{
+	font-size: 1.2em;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: #FF33FF;
+}
+#info{
+	font-size: 0.8em;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: white;
+	margin-left: 25vw;
+	margin-right: 25vw;
+
+}
+
+#fingerimage{	
+	margin-top: 0px;
+	display:inline-block;
+	position:relative;
+
+}
+
+#poster{
+	position:relative;
+	/*display:inline-block;*/
+	text-align: center;
+
+}
+
+#image{
+	position:relative;
+	display:inline-block;
+}
+
+#nav{
+	text-align:center;
+}
