@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#sky{
+background-color:lightblue;
+margin-left:3vw;
+margin-right:3vw;
+margin-top:5%;
+margin-bottom:15%;
+z-index:-998;
+
+}
+
+#parachute{
+	width:300px;
+	height:300px;
+	position:relative;
+	z-index:1;
+
+	animation-name: rotate;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	
+}
+
+@keyframes rotate {
+	0%{left:40px;
+		top:-200px;}
+
+	40%{left:580px;
+		top:-40px; transform: rotate(80deg)}
+
+	60%{left:510px;
+		top:-90px; transform: rotate(60deg)}
+
+	80%{left:210px;
+		top:-20px; transform: rotate(120deg)}
+
+	100%{left:340px;
+		top:40px; transform: rotate(25deg)}
+}
+
+ 
+ #cloudbig{
+	width:150px;
+	height:150px;
+	position:relative;
+	z-index:1;
+	margin:20px;
+
+	animation-name: run;
+	animation-duration: 700ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes run {
+	0%{left:100px;
+		top:60px}
+
+	50%{left:150px;
+		top:60px}
+
+	100%{left:100px;
+		top:60px}
+	}
+
+
+#cloudbig2{
+	width:200px;
+	height:200px;
+	position:relative;
+	z-index:1;
+	margin:20px;
+
+	animation-name: run;
+	animation-duration: 1200ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes run {
+	0%{left:150px;
+		top:20px}
+
+	50%{left:180px;
+		top:20px}
+
+	100%{left:150px;
+		top:20px}
+	}
+
+#cloudsmall{
+	width:200px;
+	height:200px;
+	position:relative;
+	z-index:1;
+	margin:20px;
+
+	animation-name: run;
+	animation-duration: 1200ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes run {
+	0%{left:350px;
+		top:20px}
+
+	50%{left:380px;
+		top:20px}
+
+	100%{left:350px;
+		top:20px}
+	}
+
+#cloudsmall2{
+	width:200px;
+	height:200px;
+	position:relative;
+	z-index:1;
+	margin:20px;
+
+	animation-name: run;
+	animation-duration: 1200ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes run {
+	0%{left:50px;
+		top:40px}
+
+	50%{left:100px;
+		top:40px}
+
+	100%{left:50px;
+		top:40px}
+	}
+
+
+#cloudsmall3{
+	width:200px;
+	height:200px;
+	position:relative;
+	z-index:1;
+	margin:20px;
+
+	animation-name: run;
+	animation-duration: 1200ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes run {
+	0%{left:250px;
+		top:40px}
+
+	50%{left:200px;
+		top:40px}
+
+	100%{left:250px;
+		top:40px}
+	}
+
+
+
+div#nav4{
+	position:relative;
+	margin:0;
+	margin-right:0;
+	position:relative;
+	text-align:center;
+
+}
+
+div#nav4:hover {
+	transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

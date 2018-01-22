@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+#travelbody{
+	background-color: #A644E0;
+	margin-left:3vw;
+	margin-right:3vw;
+	margin-top:3vw;
+	z-index:-999;
+}
+
+#van1{
+	width:500px;
+	height:500px;
+	position:relative;
+	z-index:1;
+
+	animation-name: run;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes run{
+	0%{left:-500px;
+		top:40px}
+
+	100%{left:1200px;
+		top:40px}
+	}
+
+
+div#nav2{
+	position:relative;
+	margin:0;
+	margin-right:0;
+	position:relative;
+	text-align:center;
+
+}
+
+div#nav2:hover {
+	transform: rotate(45deg);
+}
+
+

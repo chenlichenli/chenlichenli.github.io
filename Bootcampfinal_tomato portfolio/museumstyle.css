@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#museumbody{
+	background-color:#CCE563;
+	text-align:center;
+	margin-left:3vw;
+	margin-right:3vw;
+	margin-top:7vh;
+	margin-bottom: 15%;
+	z-index:-999;
+
+
+
+}
+
+#museum{
+	margin-top:-3vh;
+}
+
+
+div#nav5{
+	position:relative;
+	margin:0;
+	margin-right:0;
+	position:relative;
+	text-align:center;
+
+}
+
+div#nav5:hover {
+	transform: rotate(45deg);
+}

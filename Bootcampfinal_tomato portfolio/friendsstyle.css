@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#friendsbody{
+	background-color:yellow;
+	margin-left:3vw;
+	margin-right:3vw;
+	margin-top:7vh;
+	margin-bottom: 10%;
+
+}
+
+
+.friends{
+margin-bottom:10%;
+margin-top:15%;
+
+}
+
+
+#p1{
+	width:200px;
+	height:200px;
+	position:relative;
+	margin-top:1vh;
+
+	animation-name: wave;
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	
+}
+
+@keyframes wave {
+	0%{
+	transform:rotate(30deg);
+	}
+	50%{
+		transform:rotate(-60deg);
+	}
+	100%{
+		transform:rotate(30deg);
+	}
+}
+
+
+
+div#nav3{
+	position:relative;
+	margin:0;
+	margin-right:0;
+	position:relative;
+	text-align:center;
+
+}
+
+div#nav3:hover {
+	transform: rotate(45deg);
+}
+

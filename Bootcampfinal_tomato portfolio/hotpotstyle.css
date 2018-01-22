@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#hotpotbody{
+	background-color:#2B4ABC;
+	margin-top:5vh;
+	margin-bottom:5vh;
+	margin-left:3vw;
+	margin-right:3vw;
+	text-align: center;
+
+}
+
+#hotpot {
+
+	position: relative;
+	text-align: center;
+	margin-top:-5%;
+	/*left:10vh;
+	right:10vw;*/
+	filter:brightness(0%);
+	transition: 1s ease-in-out;
+
+}
+
+#hotpot:hover{
+
+	position: relative;
+	text-align: center;
+	/*left:10vh;
+	right:10vw;*/
+	filter:brightness(100%);
+	transition: 1s ease-in-out;
+}
