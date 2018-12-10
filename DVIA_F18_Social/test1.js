@@ -54,14 +54,14 @@ var map_width = data.length * cellSize + 260;
 
 
 
-    allgender.append("a")
-        .attr("href", function (d) {
+    allgender.append("div")
+        // .attr("href", function (d) {
 
 
-            return d.Link;
+        //     return d.Link;
 
-        })
-        .attr("target", "_blank")
+        // })
+        // .attr("target", "_blank")
         .style("position", "absolute")
         .style("text-anchor", "start")
         .style("left", function (d, i) {
