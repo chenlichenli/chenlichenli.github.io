@@ -104,11 +104,11 @@ var map_width = data.length * cellSize + 260;
         .on("mouseover", function(d){
             console.log("working");
             hover1(d);
+        })
+        .on("mouseout", function(d){
+            console.log("mouseout");
+            hide1(d);
         });
-        // .on("mouseout", function(d){
-        //     console.log("mouseout");
-        //     hide1(d);
-        // });
 
     allgender.append("div")
         .attr("target", "_blank")
@@ -132,11 +132,11 @@ var map_width = data.length * cellSize + 260;
         .on("mouseover", function(d){
             console.log("working");
             hover2(d);
+        })
+        .on("mouseout", function(d){
+            console.log("mouseout");
+            hide2(d);
         });
-        // .on("mouseout", function(d){
-        //     console.log("mouseout");
-        //     hide2(d);
-        // });
 
     allgender.append("div")
         .attr("target", "_blank")
@@ -160,11 +160,11 @@ var map_width = data.length * cellSize + 260;
         .on("mouseover", function(d){
             // console.log("working");
             hover3(d);
+        })
+        .on("mouseout", function(d){
+            // console.log("mouseout");
+            hide3(d);
         });
-        // .on("mouseout", function(d){
-        //     // console.log("mouseout");
-        //     hide3(d);
-        // });
 
     
 var div = d3.select("body").append("div")
